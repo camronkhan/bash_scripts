@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# create new sudo user
 # must be root user
 
 adduser $1

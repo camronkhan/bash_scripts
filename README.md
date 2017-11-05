@@ -7,3 +7,4 @@ Copy public key from local machine to server
 Disable password authentication (installs OpenSSH if not present)
 Configure apt-get
 Setup basic firewall
+Install OpenVPN
