@@ -4,7 +4,7 @@
 # must be root user
 
 if [ -z "$1" ]; then
-  echo "ERROR: No username provided. Exiting."
+  echo "ERROR: No username provided."
 else
   adduser $1
   usermod -aG sudo $1
