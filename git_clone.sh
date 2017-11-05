@@ -7,7 +7,7 @@
 
 GITHUB=https://www.github.com/
 
-if [ -z "$1" || -z "$2" ]; then
+if [ -z "$1" ] || [ -z "$2" ]; then
   echo "ERROR: GitHub user or repo name not provided."
 else
   if [ -z "$3" ]; then
