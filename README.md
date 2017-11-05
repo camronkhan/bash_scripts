@@ -5,4 +5,5 @@ SSH into server as root
 Add user with sudo rights and switch to user
 Copy public key from local machine to server
 Disable password authentication (installs OpenSSH if not present)
-
+Configure apt-get
+Setup basic firewall
