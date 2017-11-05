@@ -3,7 +3,8 @@
 # create new sudo user
 # must be root user
 
-if [ -z "$1"];
+if [ -z "$1"]
+then
   echo "ERROR: No username provided. Exiting."
   exit
 fi
