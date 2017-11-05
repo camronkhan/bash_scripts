@@ -10,5 +10,5 @@ GITHUB=https://www.github.com/
 if [ -z "$1" || -z "$2" ]; then
   echo "ERROR: GitHub user or repo name not provided."
 else
-  git clone ${GITHUB}${1}"/"${2}".git "${3}
+  git clone ${GITHUB}${1}"/"${2}".git" ${3}
 fi
