@@ -5,11 +5,8 @@
 
 if [ -z "$1" ]; then
   echo "ERROR: No username provided. Exiting."
-  exit
+else
+  adduser $1
+  usermod -aG sudo $1
+  su - $1
 fi
-
-adduser $1
-
-usermod -aG sudo $1
-
-su - $1
