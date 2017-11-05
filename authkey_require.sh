@@ -10,7 +10,7 @@ mkdir -p ~/.ssh
 
 chmod 700 ~/.ssh
 
-echo $PUBKEY > ~/.ssh/authorized_keys
+cp $PUBKEY ~/.ssh/authorized_keys
 
 chmod 600 ~/.ssh/authorized_keys
 
